@@ -16,7 +16,15 @@
     <div id="output"></div>
     <script>
       // YOUR CODE GOES HERE
+      var myAge = 23;
+      var maxAge = 46;
+      var amountAday = 5;
+      var yearTotal = 365;
+      var total = amountAday * yearTotal;
+      var afterAge = maxAge - myAge;
+      var equals = total * afterAge;
 
+      document.getElementById('output').innerHTML = 'i would eat ' + equals + ' candybars in ' + myAge + ' years if i had ' + amountAday + ' per day, if i could ';
       // Call the addOutput function with your output value
       // when you are ready.
       // Example: addOutput(outputValue);
