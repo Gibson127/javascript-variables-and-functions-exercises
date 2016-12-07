@@ -1,6 +1,9 @@
 <!doctype html>
 <html>
   <head>
+    <style>
+
+    </style>
     <script src="js/javascript-variable-exercises.js"></script>
   </head>
   <body>
@@ -15,8 +18,12 @@
     <h1>The Age Calculator</h1>
     <div id="output"></div>
     <script>
-      // YOUR CODE GOES HERE
-
+      // YOUR CODE GOES HERE 
+      var birthYear = 1991;
+      var futureYear = 2020;
+      var age = futureYear - birthYear;
+      console.log('i will be either ' + age + ' or ' + (age - 1));
+      document.getElementById("output").innerHTML = 'I will be either ' + age + ' or ' + (age - 1);
       // Call the addOutput function with your output value
       // when you are ready.
       // Example: addOutput(outputValue);
