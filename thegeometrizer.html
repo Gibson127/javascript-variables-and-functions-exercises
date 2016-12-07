@@ -23,11 +23,12 @@
       // YOUR CODE GOES HERE
       var radius = 50;
       var pi = 3.14;
-      var x = 2;
-      var z = x * pi * radius;
-      var area = pi * radius * radius;
+      var x = radius * 2;
+      var z = x * pi;
+      var y = radius * radius;
+      var area = pi * y;
 
-      document.getElementById('output').innerHTML = 'The circumference of the circle is ' + z + ' if the radius would be 50, and the area of  the circle is ' + area + '';
+      document.getElementById('output').innerHTML = 'The circumference of the circle is ' + z + ' if the radius would be 50, and the area of the circle is ' + area + '.';
       // Call the addOutput function with your output value
       // when you are ready.
       // Example: addOutput(outputValue);
